@@ -1,0 +1,160 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: 0;
+}
+.container{
+margin: auto;
+max-width: 1500px;
+height: 900px;
+/*border: 2px solid black;*/
+text-align: center;
+color: black;
+
+}
+.header{
+    background-color:  rgb(151, 77, 236);
+}
+.nav{
+    text-decoration: none;
+    margin: auto;
+}
+.nav>ul{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    text-decoration: none;
+
+}
+.nav>ul>li{
+    display: block;
+
+    margin: 20px;
+    
+
+}
+.header_inner{
+    display: flex;
+}
+h1{
+    padding: 60px;
+    font-size: 45px;
+    color: rgb(44, 36, 36);
+    font-family: 'Permanent Marker', cursive;
+font-family: 'Shadows Into Light', cursive;
+
+}
+h1:hover{
+    font-size: 50px;
+    color: rgb(71, 79, 85);
+}
+.container1{
+    margin: auto;
+    /*border: solid black 2px;*/
+    width: 1500px;
+    height: 600px;
+    text-align: center;
+}
+.btn{
+    width: 400px;
+    height: 700px;
+    background-color: #ff4d91;
+    padding: 35px ;
+}
+.btn:hover{
+    padding: 45px;
+    background: -webkit-linear-gradient(90deg, rgb(236, 106, 198), rgb(255, 174, 174));
+    background: -moz-linear-gradient(90deg, rgb(236, 106, 198), rgb(255, 174, 174));
+    background: linear-gradient(90deg, rgb(236, 106, 198), rgb(255, 174, 174));
+}
+.rile{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 3px black;
+
+}
+.rile:hover{
+    background: linear-gradient(45deg, #30cfd0, #330867);
+    border: solid 1px blue;
+    width: 110px;
+    height: 110px;
+}
+.circle{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    text-align: center;
+
+}
+ 
+p{
+display: inline-block;
+margin-top: 30px;
+width: 400px;
+color: transparent;    
+-webkit-background-clip: text;
+background-clip: text;
+background-image: radial-gradient(rgb(119, 0, 255), fuchsia);
+
+}
+h3{
+    font-size: 25px ;
+}
+h2{
+    padding-top: 5px;
+    font-family: 'Permanent Marker', cursive;
+font-family: 'Shadows Into Light', cursive;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(14, 199, 255);
+    font-family: 'Permanent Marker', cursive;
+}
+
+hr{
+margin-top: 20px;
+margin-bottom: 20px;
+color: black;
+width: 5%;
+size: 10%;
+margin: auto;
+}
+.main{
+    background-color: whitesmoke;
+}
+h2{
+    margin-top: 15px;
+}
+.footer{
+
+background-color: cornflowerblue;
+}
+.baby{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid 2px black;
+    margin-top: 100px;
+}
+.baby:hover{
+    background-color: rgb(255, 102, 102);
+    border: solid  3px rgb(255, 0, 55);
+    
+}
+.papa{
+    display: flex;
+    justify-content: space-between;
+   
+    width: 300px;
+    margin: auto;
+}
+h3{
+    margin-bottom: 100px;
+}
+a:hover{
+font-size: 25px;
+color: #cec5ff;
+}
